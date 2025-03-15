@@ -1,0 +1,80 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    color: cyan;
+    text-shadow: 2px 2px 4px #00ffff;
+}
+
+.selectors {
+    margin: 20px 0;
+}
+
+select {
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.planet-display img {
+    width: 150px;
+    height: 150px;
+}
+
+.comparison {
+    margin-top: 20px;
+}
+
+.compare-box {
+    border: 2px solid cyan;
+    padding: 20px;
+    display: inline-block;
+    width: 80%;
+    margin-top: 10px;
+    background: rgba(0, 255, 255, 0.1);
+}
+
+.arrow {
+    font-size: 24px;
+    color: yellow;
+}
+
+.mass-visual {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#mass-icons1, #mass-icons2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    max-width: 100px;
+}
+
+.mass-icon {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+
+body {
+    background-image: url('imgs/sun.png'); 
+    background-size: cover; 
+    background-position: left; 
+    background-repeat: no-repeat; 
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}

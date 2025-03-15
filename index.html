@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌌 Planet Comparison 🌍</h1>
+        <div class="selectors">
+            <select id="planet1"></select>
+            <span>VS</span>
+            <select id="planet2"></select>
+        </div>
+    </header>
+
+    <section class="planet-display">
+        <img id="planet-img1" src="" alt="Planet 1">
+        <img id="planet-img2" src="" alt="Planet 2">
+    </section>
+
+    <section class="comparison">
+        <div class="compare-box">
+            <h2>⚖️ Mass (Earth = 1)</h2>
+            <p><span id="mass1"></span> <span class="arrow" id="arrow-mass"></span> <span id="mass2"></span></p>
+            <div class="mass-visual">
+                <div id="mass-icons1"></div>
+                <div id="mass-icons2"></div>
+            </div>
+        </div>
+
+        <div class="compare-box">
+            <h2>🌓 Moons</h2>
+            <p><span id="moons1"></span> <span class="arrow" id="arrow-moons"></span> <span id="moons2"></span></p>
+        </div>
+
+        <div class="compare-box">
+            <h2>🌎 Diameter (km)</h2>
+            <p><span id="diameter1"></span> <span class="arrow" id="arrow-diameter"></span> <span id="diameter2"></span></p>
+        </div>
+
+        <div class="compare-box">
+            <h2>🔥 Temperature (°C)</h2>
+            <p><span id="temp1"></span> <span class="arrow" id="arrow-temp"></span> <span id="temp2"></span></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
